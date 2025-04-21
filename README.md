@@ -1,97 +1,89 @@
-# Amit Singh's Portfolio Website
+# Amit Singh - Portfolio Website
 
-A modern, responsive portfolio website showcasing Amit Singh's skills, projects, and achievements as a Computer Science student and Full-Stack Web Developer.
+A modern, responsive portfolio website showcasing my skills, projects, and professional journey as a Full-Stack Web Developer.
 
 ## Features
 
-- Responsive design that works on all devices
-- Modern and clean UI with smooth animations
-- Interactive sections for skills, projects, and contact
-- Mobile-friendly navigation
-- Form validation
-- Smooth scrolling
-- Progress bar animations
-- Project card animations
+- **Modern Design**: Clean and professional dark theme with smooth animations
+- **Responsive Layout**: Fully responsive design that works on all devices
+- **Interactive Elements**: Hover effects, animations, and smooth transitions
+- **Sections**:
+  - Hero section with introduction and social links
+  - About section with education and achievements
+  - Skills section showcasing technical expertise
+  - Projects section with detailed project cards
+  - Resume section with download option
+  - Contact section with form and social links
 
 ## Technologies Used
 
 - HTML5
 - CSS3 (with CSS Variables and Flexbox/Grid)
-- JavaScript (ES6+)
+- JavaScript
 - Font Awesome Icons
 - Google Fonts (Poppins)
 
-## Sections
+## Sections Overview
 
-1. **Header/Navigation**
-   - Sticky navigation bar
-   - Mobile-responsive menu
-   - Smooth scrolling
+### Hero Section
+- Welcome message and introduction
+- Professional title and description
+- Social media links (GitHub, LinkedIn, Email)
+- Profile image with project count badge
 
-2. **Hero Section**
-   - Welcome message
-   - Profile image
-   - Call-to-action buttons
+### About Section
+- Quick info cards (Leetcode, Projects, Tech Stack)
+- Personal bio and highlights
+- Education timeline with achievements
+- Skills and expertise overview
 
-3. **About Section**
-   - Education details
-   - Personal statement
-   - Social media links
+### Skills Section
+- Technical skills categories:
+  - Languages (JavaScript, C++, Java)
+  - Web Technologies (React.js, Node.js, Express.js, MongoDB, PHP)
+  - DevOps & Tools (Docker, Jenkins, Git, GitHub, Postman)
+  - Areas of Interest (Data Structures, Algorithms, Generative AI)
+  - Soft Skills (Problem Solving, Teamwork, Adaptability)
 
-4. **Skills Section**
-   - Programming languages
-   - Frameworks & Tools
-   - Animated progress bars
+### Projects Section
+- Featured projects with:
+  - Project images and overlays
+  - Detailed descriptions
+  - Tech stack used
+  - Links to GitHub and live demos
+- "View More Projects" button
 
-5. **Projects Section**
-   - Project cards with hover effects
-   - Technology stack tags
-   - Links to code and live demos
+### Resume Section
+- Professional summary
+- Key details (Education, Expertise, Skills)
+- Download button for PDF resume
 
-6. **Resume Section**
-   - Download button for resume
+### Contact Section
+- Contact information (Email, Phone, Location)
+- Social media links
+- Contact form with:
+  - Name input
+  - Email input
+  - Message textarea
+  - Submit button
 
-7. **Contact Section**
-   - Contact form with validation
-   - Contact information
-   - Social media links
+## Contact Information
 
-8. **Footer**
-   - Copyright information
-   - Social media icons
+- **Email**: singh.amitt1910@gmail.com
+- **Phone**: +91 9310126498
+- **Location**: Faridabad, India
+- **GitHub**: [amit-singh-19](https://github.com/amit-singh-19)
+- **LinkedIn**: [amitsingh1910](https://linkedin.com/in/amitsingh1910)
 
-## Getting Started
+## Setup and Usage
 
-1. Clone the repository
-2. Open `index.html` in your browser
-3. Customize the content to match your information
+1. Clone the repository:
+```bash
+git clone https://github.com/amit-singh-19/portfolio-website.git
+```
 
-## Customization
-
-To customize the website:
-
-1. Replace the profile image (`profile-placeholder.jpg`)
-2. Update the content in `index.html`
-3. Modify the colors in `styles.css` (CSS Variables)
-4. Add your own projects and skills
-5. Update social media links
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Opera (latest)
+2. Open `index.html` in your browser to view the website.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-Amit Singh
-- Email: amitsinghh0411@gmail.com
-- Phone: +91 9310126498
-- GitHub: [github.com/amit-singh](https://github.com/amit-singh)
-- LinkedIn: [linkedin.com/in/amit-singh](https://linkedin.com/in/amit-singh) 
+© 2025 Amit Singh. All rights reserved. 
