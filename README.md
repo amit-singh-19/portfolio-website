@@ -12,6 +12,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
   - About section with education and achievements
   - Skills section showcasing technical expertise
   - Projects section with detailed project cards
+  - Certificates section with achievements
   - Resume section with download option
   - Contact section with form and social links
 
@@ -52,6 +53,17 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
   - Tech stack used
   - Links to GitHub and live demos
 - "View More Projects" button
+
+### Certificates Section
+- Professional certifications with:
+  - Certificate images
+  - Issuing organization
+  - Date of completion
+  - View certificate option
+- Categories:
+  - MERN Stack Development
+  - Data Structures & Algorithms
+  - DevOps Fundamentals
 
 ### Resume Section
 - Professional summary
