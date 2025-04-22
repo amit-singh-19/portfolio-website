@@ -61,7 +61,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
   - Date of completion
   - View certificate option
 - Categories:
-  - MERN Stack Development
+  - Cloud Computing
   - Data Structures & Algorithms
   - DevOps Fundamentals
 
