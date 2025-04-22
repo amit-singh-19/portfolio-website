@@ -234,4 +234,54 @@ const sectionObserver = new IntersectionObserver(revealSection, {
 
 sections.forEach(section => {
     sectionObserver.observe(section);
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Get all sections and navigation links
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    // Function to update active link
+    function updateActiveLink() {
+        let current = '';
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            
+            if (window.scrollY >= (sectionTop - sectionHeight / 3)) {
+                current = section.getAttribute('id');
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href').slice(1) === current) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+    // Add smooth scrolling to all links
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            
+            const targetId = link.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+            
+            if (targetSection) {
+                window.scrollTo({
+                    top: targetSection.offsetTop - 100,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Update active link on scroll
+    window.addEventListener('scroll', updateActiveLink);
+    
+    // Initial call to set active link
+    updateActiveLink();
 }); 
